@@ -14,10 +14,10 @@ export const ProductsContiner = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 `;
 export const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: white;
   letter-spacing: 1px;

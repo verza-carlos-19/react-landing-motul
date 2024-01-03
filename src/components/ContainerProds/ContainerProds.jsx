@@ -10,7 +10,7 @@ function ContainerProds() {
   return (
     <>
       <ProductsContiner>
-        <Title>productos</Title>
+        <Title>Productos</Title>
         <ProductsGallery>
           {productsData.map((element) => {
             return (
