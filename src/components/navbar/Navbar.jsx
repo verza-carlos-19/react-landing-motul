@@ -1,5 +1,14 @@
+import { ListItem, NavbarBox, NavbarList } from "./navbarStyles";
+
 function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <NavbarBox>
+      <NavbarList>
+        <ListItem>Inicio</ListItem>
+        <ListItem>Productos</ListItem>
+      </NavbarList>
+    </NavbarBox>
+  );
 }
 
 export default Navbar;

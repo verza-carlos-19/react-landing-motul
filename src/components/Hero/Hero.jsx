@@ -2,6 +2,7 @@ import {
   BoxContentHero,
   HeroBackground,
   HeroBox,
+  SpecialTextHero,
   TextHero,
   TitleHero,
 } from "./heroStyles";
@@ -16,11 +17,13 @@ function Hero() {
         <BoxContentHero>
           <TitleHero>¡Desata la Velocidad!</TitleHero>
           <TextHero>
-            Del rugido del Motocross al desafío del Rally Dakar, de la
-            adrenalina del MotoGP a la precisión de la Fórmula 1: nuestros
-            lubricantes con tecnología sintética avanzada garantizan rendimiento
-            inigualable, protección suprema y máxima potencia para los
-            verdaderos campeones del motorsport.
+            Del rugido del <SpecialTextHero>Motocross</SpecialTextHero> al
+            desafío del <SpecialTextHero>Rally Dakar</SpecialTextHero>, de la
+            adrenalina del <SpecialTextHero>MotoGP</SpecialTextHero> a la
+            precisión de la <SpecialTextHero>Fórmula 1</SpecialTextHero>:
+            nuestros lubricantes con tecnología sintética avanzada garantizan
+            rendimiento inigualable, protección suprema y máxima potencia para
+            los verdaderos campeones del motorsport.
           </TextHero>
         </BoxContentHero>
       </HeroBox>

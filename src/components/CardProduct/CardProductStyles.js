@@ -14,6 +14,9 @@ export const BoxCard = styled.div`
   &:hover {
     box-shadow: 0 0 1.3rem white, inset 0 0 1rem white;
   }
+  @media (max-width: 500px) {
+    scale: 0.9;
+  }
 `;
 export const TitleCard = styled.h3`
   color: white;
@@ -51,6 +54,11 @@ export const PriceCard = styled.h4`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
 `;
+export const ButtonsBox = styled.div`
+  display: flex;
+  width: fit-content;
+  gap: 1rem;
+`;
 export const ButtonCard = styled.button`
   padding: 0.5rem 1rem;
   border: 1px solid transparent;
@@ -63,5 +71,6 @@ export const ButtonCard = styled.button`
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid white;
+    box-shadow: inset 0 0 0.2rem white, 0 0 0.5rem white;
   }
 `;

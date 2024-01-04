@@ -1,6 +1,7 @@
 import {
   BoxCard,
   ButtonCard,
+  ButtonsBox,
   ImageBoxCard,
   PriceCard,
   TitleCard,
@@ -19,7 +20,10 @@ function CardProduct({ title, image, price }) {
           <img src={image} alt={title} />
         </ImageBoxCard>
         <PriceCard>{formatPrice}</PriceCard>
-        <ButtonCard>COMPRAR</ButtonCard>
+        <ButtonsBox>
+          <ButtonCard>COMPRAR</ButtonCard>
+          <ButtonCard>DETALLES</ButtonCard>
+        </ButtonsBox>
       </BoxCard>
     </>
   );

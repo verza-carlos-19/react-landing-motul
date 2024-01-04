@@ -5,8 +5,14 @@ export const ProductsGallery = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   max-width: 1200px;
+  @media (max-width: 800px) {
+    gap: 1rem;
+  }
+  @media (max-width: 500px) {
+    gap: 2rem;
+  }
 `;
 export const ProductsContiner = styled.div`
   width: 100%;
