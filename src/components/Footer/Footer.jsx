@@ -1,4 +1,4 @@
-import { FooterBottomBox, FooterBox, FooterTopBox } from "./footerStyles";
+import { FooterBottomBox, FooterBox, FooterTopBox } from "./FooterStyles.js";
 
 function Footer() {
   return (

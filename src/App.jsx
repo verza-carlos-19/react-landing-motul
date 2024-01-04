@@ -1,9 +1,9 @@
-import { productsData } from "./data/products";
+import ContainerProds from "./components/ContainerProds/ContainerProds";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/header/header";
-import Layout from "./components/layout/layout";
-import Hero from "./components/hero/hero";
-import ContainerProds from "./components/containerProds/containerProds";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Layout from "./components/Layout/Layout";
+
 function App() {
   return (
     <>
