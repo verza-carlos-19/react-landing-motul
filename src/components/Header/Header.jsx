@@ -1,5 +1,5 @@
-import Navbar from "../navbar/navbar";
-import { HeaderBackground, HeaderBox, HeaderLogo } from "./headerStyles";
+import Navbar from "../Navbar/Navbar";
+import { HeaderBackground, HeaderBox, HeaderLogo } from "./HeaderStyles";
 
 function Header() {
   return (

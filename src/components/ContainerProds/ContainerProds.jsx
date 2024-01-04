@@ -1,10 +1,10 @@
 import { productsData } from "../../data/products.js";
-import CardProduct from "../cardProduct/cardProduct";
+import CardProduct from "../CardProduct/CardProduct.jsx";
 import {
   ProductsContiner,
   ProductsGallery,
   Title,
-} from "./containerProdsStyles";
+} from "./ContainerProdsStyles.js";
 
 function ContainerProds() {
   return (
