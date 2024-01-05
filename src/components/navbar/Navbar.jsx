@@ -1,4 +1,4 @@
-import { ListItem, NavbarBox, NavbarList } from "./navbarStyles";
+import { ListItem, NavbarBox, NavbarList } from "./NavbarStyles";
 
 function Navbar() {
   return (

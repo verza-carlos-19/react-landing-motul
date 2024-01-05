@@ -1,4 +1,4 @@
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar.jsx";
 import { HeaderBackground, HeaderBox, HeaderLogo } from "./HeaderStyles";
 
 function Header() {
