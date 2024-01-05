@@ -1,5 +1,5 @@
 import React from "react";
-import { LayoutBox } from "./layoutStyles";
+import { LayoutBox } from "./LayoutStyles";
 
 function Layout({ children }) {
   return (
